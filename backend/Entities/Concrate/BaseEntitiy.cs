@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrate
 {
-    internal class BaseEntitiy
+    public class BaseEntitiy : IEntitiy
     {
+        public int Id { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public bool IsActive { get; set; } = true;
     }
 }
