@@ -1,0 +1,23 @@
+## Visual Studio gereksizleri
+.vs/
+[Vv]s/
+/Debug/
+/Release/
+/x64/
+/x86/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Derleme çıktıları (Build artifacts)
+[Bb]in/
+[Oo]bj/
+
+## Paket yöneticileri
+/packages/
+/node_modules/
+
+## İşletim sistemi dosyaları
+Thumbs.db
+desktop.ini
+.DS_Store
